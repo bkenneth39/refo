@@ -9,9 +9,15 @@ import SwiftUI
 
 @main
 struct refo_watchApp: App {
+   
+    let persistentContainer = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView{
+                ContentView()
+                    .environment(\.managedObjectContext, persistentContainer.container.viewContext)
+            }
         }
     }
 }

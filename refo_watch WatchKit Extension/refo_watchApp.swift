@@ -9,6 +9,10 @@ import SwiftUI
 
 @main
 struct refo_watchApp: App {
+    
+   
+
+    
     @SceneBuilder var body: some Scene {
         WindowGroup {
             NavigationView {

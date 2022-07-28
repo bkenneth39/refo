@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC1A3C1D288FE43100352D88 /* DetailRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A3C1C288FE43100352D88 /* DetailRow.swift */; };
+		AC1A3C20288FF79700352D88 /* NewLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1A3C1F288FF79700352D88 /* NewLink.swift */; };
 		AC37CC43288C464900AE4A0D /* refo_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC42288C464900AE4A0D /* refo_watchApp.swift */; };
 		AC37CC45288C464900AE4A0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC44288C464900AE4A0D /* ContentView.swift */; };
 		AC37CC47288C464A00AE4A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC37CC46288C464A00AE4A0D /* Assets.xcassets */; };
 		AC37CC4A288C464A00AE4A0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC37CC49288C464A00AE4A0D /* Preview Assets.xcassets */; };
-		AC37CC4E288C464A00AE4A0D /* refo_watch WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AC37CC4D288C464A00AE4A0D /* refo_watch WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		AC37CC4E288C464A00AE4A0D /* refo.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = AC37CC4D288C464A00AE4A0D /* refo.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AC37CC53288C464B00AE4A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC37CC52288C464B00AE4A0D /* Assets.xcassets */; };
 		AC37CC59288C464B00AE4A0D /* refo_watch WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AC37CC58288C464B00AE4A0D /* refo_watch WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		AC37CC5E288C464B00AE4A0D /* refo_watchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC5D288C464B00AE4A0D /* refo_watchApp.swift */; };
@@ -21,6 +23,27 @@
 		AC37CC66288C464B00AE4A0D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC37CC65288C464B00AE4A0D /* ComplicationController.swift */; };
 		AC37CC68288C464B00AE4A0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC37CC67288C464B00AE4A0D /* Assets.xcassets */; };
 		AC37CC6B288C464B00AE4A0D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC37CC6A288C464B00AE4A0D /* Preview Assets.xcassets */; };
+		AC57ADDA288DADD2003FB934 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC57ADD9288DADD2003FB934 /* TimerView.swift */; };
+		AC57ADDC288EC4A5003FB934 /* TabViewCoba.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC57ADDB288EC4A5003FB934 /* TabViewCoba.swift */; };
+		AC57ADDE288EEA9D003FB934 /* PauseResetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC57ADDD288EEA9D003FB934 /* PauseResetView.swift */; };
+		AC58B6D928903CA6008C7CDE /* NewPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6D828903CA6008C7CDE /* NewPicture.swift */; };
+		AC58B6DB2890411B008C7CDE /* NewCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6DA2890411B008C7CDE /* NewCode.swift */; };
+		AC58B6DE289042CF008C7CDE /* ScanData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6DD289042CF008C7CDE /* ScanData.swift */; };
+		AC58B6E12890430E008C7CDE /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6E02890430E008C7CDE /* ScannerView.swift */; };
+		AC58B6E328904328008C7CDE /* TextRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6E228904328008C7CDE /* TextRecognizer.swift */; };
+		AC58B6EE2890D815008C7CDE /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6ED2890D815008C7CDE /* ImagePicker.swift */; };
+		AC58B6F02891569B008C7CDE /* NewNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6EF2891569B008C7CDE /* NewNotes.swift */; };
+		AC58B6FD28917EBE008C7CDE /* EditingLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6FC28917EBE008C7CDE /* EditingLink.swift */; };
+		AC58B6FF28917F0E008C7CDE /* EditingPicture.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B6FE28917F0E008C7CDE /* EditingPicture.swift */; };
+		AC58B70128918170008C7CDE /* EditingCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B70028918170008C7CDE /* EditingCode.swift */; };
+		AC58B703289181D3008C7CDE /* EditingNotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B702289181D3008C7CDE /* EditingNotes.swift */; };
+		AC58B7062891863C008C7CDE /* ResourcesList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC58B7042891863C008C7CDE /* ResourcesList.xcdatamodeld */; };
+		AC58B70A2892480C008C7CDE /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC58B7092892480C008C7CDE /* Persistence.swift */; };
+		AC6A86F9288FA91000208C7B /* TextAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A86F8288FA91000208C7B /* TextAlert.swift */; };
+		AC6A86FB288FA95300208C7B /* AlertWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A86FA288FA95300208C7B /* AlertWrapper.swift */; };
+		AC6A86FD288FAE7C00208C7B /* TextFieldAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A86FC288FAE7C00208C7B /* TextFieldAlert.swift */; };
+		AC6A8702288FB4DE00208C7B /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A8701288FB4DE00208C7B /* CategoryRow.swift */; };
+		AC6A8705288FB70100208C7B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A8704288FB70100208C7B /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,7 +81,7 @@
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
 			dstSubfolderSpec = 16;
 			files = (
-				AC37CC4E288C464A00AE4A0D /* refo_watch WatchKit App.app in Embed Watch Content */,
+				AC37CC4E288C464A00AE4A0D /* refo.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -66,12 +89,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AC37CC3F288C464900AE4A0D /* refo_watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refo_watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1A3C1C288FE43100352D88 /* DetailRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailRow.swift; sourceTree = "<group>"; };
+		AC1A3C1F288FF79700352D88 /* NewLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLink.swift; sourceTree = "<group>"; };
+		AC37CC3F288C464900AE4A0D /* refo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC37CC42288C464900AE4A0D /* refo_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refo_watchApp.swift; sourceTree = "<group>"; };
 		AC37CC44288C464900AE4A0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AC37CC46288C464A00AE4A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC37CC49288C464A00AE4A0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		AC37CC4D288C464A00AE4A0D /* refo_watch WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "refo_watch WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC37CC4D288C464A00AE4A0D /* refo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = refo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC37CC52288C464B00AE4A0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC37CC58288C464B00AE4A0D /* refo_watch WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "refo_watch WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC37CC5D288C464B00AE4A0D /* refo_watchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = refo_watchApp.swift; sourceTree = "<group>"; };
@@ -83,6 +108,27 @@
 		AC37CC6A288C464B00AE4A0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC37CC6C288C464B00AE4A0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC37CC6D288C464B00AE4A0D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AC57ADD9288DADD2003FB934 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		AC57ADDB288EC4A5003FB934 /* TabViewCoba.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewCoba.swift; sourceTree = "<group>"; };
+		AC57ADDD288EEA9D003FB934 /* PauseResetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseResetView.swift; sourceTree = "<group>"; };
+		AC58B6D828903CA6008C7CDE /* NewPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPicture.swift; sourceTree = "<group>"; };
+		AC58B6DA2890411B008C7CDE /* NewCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCode.swift; sourceTree = "<group>"; };
+		AC58B6DD289042CF008C7CDE /* ScanData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanData.swift; sourceTree = "<group>"; };
+		AC58B6E02890430E008C7CDE /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		AC58B6E228904328008C7CDE /* TextRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognizer.swift; sourceTree = "<group>"; };
+		AC58B6ED2890D815008C7CDE /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		AC58B6EF2891569B008C7CDE /* NewNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotes.swift; sourceTree = "<group>"; };
+		AC58B6FC28917EBE008C7CDE /* EditingLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingLink.swift; sourceTree = "<group>"; };
+		AC58B6FE28917F0E008C7CDE /* EditingPicture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingPicture.swift; sourceTree = "<group>"; };
+		AC58B70028918170008C7CDE /* EditingCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingCode.swift; sourceTree = "<group>"; };
+		AC58B702289181D3008C7CDE /* EditingNotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingNotes.swift; sourceTree = "<group>"; };
+		AC58B7052891863C008C7CDE /* ResourcesList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ResourcesList.xcdatamodel; sourceTree = "<group>"; };
+		AC58B7092892480C008C7CDE /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		AC6A86F8288FA91000208C7B /* TextAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlert.swift; sourceTree = "<group>"; };
+		AC6A86FA288FA95300208C7B /* AlertWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertWrapper.swift; sourceTree = "<group>"; };
+		AC6A86FC288FAE7C00208C7B /* TextFieldAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldAlert.swift; sourceTree = "<group>"; };
+		AC6A8701288FB4DE00208C7B /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		AC6A8704288FB70100208C7B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +149,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC1A3C1E288FF5ED00352D88 /* NewResource */ = {
+			isa = PBXGroup;
+			children = (
+				AC1A3C1F288FF79700352D88 /* NewLink.swift */,
+				AC58B6D828903CA6008C7CDE /* NewPicture.swift */,
+				AC58B6DA2890411B008C7CDE /* NewCode.swift */,
+				AC58B6EF2891569B008C7CDE /* NewNotes.swift */,
+			);
+			path = NewResource;
+			sourceTree = "<group>";
+		};
 		AC37CC36288C464900AE4A0D = {
 			isa = PBXGroup;
 			children = (
@@ -116,8 +173,8 @@
 		AC37CC40288C464900AE4A0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AC37CC3F288C464900AE4A0D /* refo_watch.app */,
-				AC37CC4D288C464A00AE4A0D /* refo_watch WatchKit App.app */,
+				AC37CC3F288C464900AE4A0D /* refo.app */,
+				AC37CC4D288C464A00AE4A0D /* refo.app */,
 				AC37CC58288C464B00AE4A0D /* refo_watch WatchKit Extension.appex */,
 			);
 			name = Products;
@@ -126,10 +183,14 @@
 		AC37CC41288C464900AE4A0D /* refo_watch */ = {
 			isa = PBXGroup;
 			children = (
+				AC58B6DC289042C2008C7CDE /* Model */,
+				AC6A86FF288FB43200208C7B /* View */,
+				AC6A86FE288FB40400208C7B /* TextFieldAlert */,
 				AC37CC42288C464900AE4A0D /* refo_watchApp.swift */,
-				AC37CC44288C464900AE4A0D /* ContentView.swift */,
 				AC37CC46288C464A00AE4A0D /* Assets.xcassets */,
 				AC37CC48288C464A00AE4A0D /* Preview Content */,
+				AC58B7042891863C008C7CDE /* ResourcesList.xcdatamodeld */,
+				AC58B7092892480C008C7CDE /* Persistence.swift */,
 			);
 			path = refo_watch;
 			sourceTree = "<group>";
@@ -162,6 +223,9 @@
 				AC37CC6C288C464B00AE4A0D /* Info.plist */,
 				AC37CC6D288C464B00AE4A0D /* PushNotificationPayload.apns */,
 				AC37CC69288C464B00AE4A0D /* Preview Content */,
+				AC57ADD9288DADD2003FB934 /* TimerView.swift */,
+				AC57ADDB288EC4A5003FB934 /* TabViewCoba.swift */,
+				AC57ADDD288EEA9D003FB934 /* PauseResetView.swift */,
 			);
 			path = "refo_watch WatchKit Extension";
 			sourceTree = "<group>";
@@ -172,6 +236,83 @@
 				AC37CC6A288C464B00AE4A0D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC58B6DC289042C2008C7CDE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AC58B6DD289042CF008C7CDE /* ScanData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AC58B6DF28904305008C7CDE /* Scanner */ = {
+			isa = PBXGroup;
+			children = (
+				AC58B6E02890430E008C7CDE /* ScannerView.swift */,
+				AC58B6E228904328008C7CDE /* TextRecognizer.swift */,
+			);
+			path = Scanner;
+			sourceTree = "<group>";
+		};
+		AC58B6EC2890D7F4008C7CDE /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				AC58B6ED2890D815008C7CDE /* ImagePicker.swift */,
+			);
+			path = ImagePicker;
+			sourceTree = "<group>";
+		};
+		AC58B6F328917E27008C7CDE /* Editing */ = {
+			isa = PBXGroup;
+			children = (
+				AC58B6FC28917EBE008C7CDE /* EditingLink.swift */,
+				AC58B6FE28917F0E008C7CDE /* EditingPicture.swift */,
+				AC58B70028918170008C7CDE /* EditingCode.swift */,
+				AC58B702289181D3008C7CDE /* EditingNotes.swift */,
+			);
+			path = Editing;
+			sourceTree = "<group>";
+		};
+		AC6A86FE288FB40400208C7B /* TextFieldAlert */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A86F8288FA91000208C7B /* TextAlert.swift */,
+				AC6A86FA288FA95300208C7B /* AlertWrapper.swift */,
+				AC6A86FC288FAE7C00208C7B /* TextFieldAlert.swift */,
+			);
+			path = TextFieldAlert;
+			sourceTree = "<group>";
+		};
+		AC6A86FF288FB43200208C7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC58B6F328917E27008C7CDE /* Editing */,
+				AC58B6EC2890D7F4008C7CDE /* ImagePicker */,
+				AC58B6DF28904305008C7CDE /* Scanner */,
+				AC1A3C1E288FF5ED00352D88 /* NewResource */,
+				AC6A8703288FB6F600208C7B /* Detail */,
+				AC6A8700288FB4CC00208C7B /* Category */,
+				AC37CC44288C464900AE4A0D /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC6A8700288FB4CC00208C7B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A8701288FB4DE00208C7B /* CategoryRow.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		AC6A8703288FB6F600208C7B /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				AC6A8704288FB70100208C7B /* DetailView.swift */,
+				AC1A3C1C288FE43100352D88 /* DetailRow.swift */,
+			);
+			path = Detail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +334,7 @@
 			);
 			name = refo_watch;
 			productName = refo_watch;
-			productReference = AC37CC3F288C464900AE4A0D /* refo_watch.app */;
+			productReference = AC37CC3F288C464900AE4A0D /* refo.app */;
 			productType = "com.apple.product-type.application";
 		};
 		AC37CC4C288C464A00AE4A0D /* refo_watch WatchKit App */ = {
@@ -210,7 +351,7 @@
 			);
 			name = "refo_watch WatchKit App";
 			productName = "refo_watch WatchKit App";
-			productReference = AC37CC4D288C464A00AE4A0D /* refo_watch WatchKit App.app */;
+			productReference = AC37CC4D288C464A00AE4A0D /* refo.app */;
 			productType = "com.apple.product-type.application.watchapp2";
 		};
 		AC37CC57288C464B00AE4A0D /* refo_watch WatchKit Extension */ = {
@@ -305,8 +446,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6A86FD288FAE7C00208C7B /* TextFieldAlert.swift in Sources */,
+				AC6A86F9288FA91000208C7B /* TextAlert.swift in Sources */,
+				AC58B6FD28917EBE008C7CDE /* EditingLink.swift in Sources */,
 				AC37CC45288C464900AE4A0D /* ContentView.swift in Sources */,
+				AC58B7062891863C008C7CDE /* ResourcesList.xcdatamodeld in Sources */,
+				AC6A8705288FB70100208C7B /* DetailView.swift in Sources */,
+				AC58B6E12890430E008C7CDE /* ScannerView.swift in Sources */,
+				AC1A3C20288FF79700352D88 /* NewLink.swift in Sources */,
+				AC6A86FB288FA95300208C7B /* AlertWrapper.swift in Sources */,
+				AC58B70128918170008C7CDE /* EditingCode.swift in Sources */,
+				AC1A3C1D288FE43100352D88 /* DetailRow.swift in Sources */,
+				AC58B70A2892480C008C7CDE /* Persistence.swift in Sources */,
+				AC58B6FF28917F0E008C7CDE /* EditingPicture.swift in Sources */,
+				AC6A8702288FB4DE00208C7B /* CategoryRow.swift in Sources */,
+				AC58B6DE289042CF008C7CDE /* ScanData.swift in Sources */,
 				AC37CC43288C464900AE4A0D /* refo_watchApp.swift in Sources */,
+				AC58B703289181D3008C7CDE /* EditingNotes.swift in Sources */,
+				AC58B6DB2890411B008C7CDE /* NewCode.swift in Sources */,
+				AC58B6F02891569B008C7CDE /* NewNotes.swift in Sources */,
+				AC58B6EE2890D815008C7CDE /* ImagePicker.swift in Sources */,
+				AC58B6E328904328008C7CDE /* TextRecognizer.swift in Sources */,
+				AC58B6D928903CA6008C7CDE /* NewPicture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,7 +475,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC57ADDA288DADD2003FB934 /* TimerView.swift in Sources */,
+				AC57ADDC288EC4A5003FB934 /* TabViewCoba.swift in Sources */,
 				AC37CC62288C464B00AE4A0D /* NotificationController.swift in Sources */,
+				AC57ADDE288EEA9D003FB934 /* PauseResetView.swift in Sources */,
 				AC37CC60288C464B00AE4A0D /* ContentView.swift in Sources */,
 				AC37CC66288C464B00AE4A0D /* ComplicationController.swift in Sources */,
 				AC37CC5E288C464B00AE4A0D /* refo_watchApp.swift in Sources */,
@@ -458,8 +622,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "refo_watch WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "refo_watch WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = refo;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = refo_watch_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -490,8 +654,8 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "refo_watch WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "refo_watch WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CFBundleDisplayName = refo;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = refo_watch_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -523,12 +687,11 @@
 				DEVELOPMENT_TEAM = 8XZM6ZXT9F;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = refo_watch_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "refo_watch WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.bryankenneth.refo-watch";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bryankenneth.refo-watch.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = refo;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -549,12 +712,11 @@
 				DEVELOPMENT_TEAM = 8XZM6ZXT9F;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = refo_watch_WatchKit_Extension;
-				INFOPLIST_KEY_CFBundleDisplayName = "refo_watch WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.bryankenneth.refo-watch";
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bryankenneth.refo-watch.watchkitapp";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = refo;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -576,11 +738,14 @@
 				DEVELOPMENT_TEAM = 8XZM6ZXT9F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to access your camera to capture a photo add and update profile picture.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to access your camera to capture a photo add and update profile picture.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -588,7 +753,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bryankenneth.refo-watch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = refo;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -607,11 +772,14 @@
 				DEVELOPMENT_TEAM = 8XZM6ZXT9F;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to access your camera to capture a photo add and update profile picture.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Need to access your camera to capture a photo add and update profile picture.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -619,7 +787,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bryankenneth.refo-watch";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = refo;
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -668,6 +836,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC58B7042891863C008C7CDE /* ResourcesList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC58B7052891863C008C7CDE /* ResourcesList.xcdatamodel */,
+			);
+			currentVersion = AC58B7052891863C008C7CDE /* ResourcesList.xcdatamodel */;
+			path = ResourcesList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = AC37CC37288C464900AE4A0D /* Project object */;
 }
