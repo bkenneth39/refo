@@ -32,10 +32,7 @@ struct DetailView: View {
             .ignoresSafeArea()
             .overlay(
                 VStack{
-                    NavigationLink(destination: NewLink(category: category!).environment(\.managedObjectContext, viewContext), tag: "A", selection: $selection) { EmptyView().environment(\.managedObjectContext, viewContext) }
-                    NavigationLink(destination: NewCode(category: category!).environment(\.managedObjectContext, viewContext), tag: "B", selection: $selection) { EmptyView().environment(\.managedObjectContext, viewContext) }
-                    NavigationLink(destination: NewPicture(), tag: "C", selection: $selection) { EmptyView() }
-                    NavigationLink(destination: NewNotes(category: category!).environment(\.managedObjectContext, viewContext), tag: "D", selection: $selection) { EmptyView().environment(\.managedObjectContext, viewContext) }
+                   
                     List{
                         ForEach(resources, id: \.self){
                             resource in
@@ -59,8 +56,10 @@ struct DetailView: View {
                                 }
                         }
                     }.listStyle(.plain)
-//                        .textFieldAlert(isPresented: $presentAlert) { () -> TextFieldAlert in
-//                            TextFieldAlert(title: "New Category", message: "Enter the title of your new category", text: self.$newName)}
+                    NavigationLink(destination: NewLink(category: category!).environment(\.managedObjectContext, viewContext), tag: "A", selection: $selection) { EmptyView().environment(\.managedObjectContext, viewContext) }
+                    NavigationLink(destination: NewCode(category: category!).environment(\.managedObjectContext, viewContext), tag: "B", selection: $selection) { EmptyView().environment(\.managedObjectContext, viewContext) }
+                    NavigationLink(destination: NewPicture(), tag: "C", selection: $selection) { EmptyView() }
+                    NavigationLink(destination: NewNotes(category: category!).environment(\.managedObjectContext, viewContext), tag: "D", selection: $selection) { EmptyView().environment(\.managedObjectContext, viewContext) }
                         
                    
                 }.navigationTitle(category?.name ?? "Untitled")
@@ -80,9 +79,9 @@ struct DetailView: View {
                                 selection = "D"
                             }.foregroundColor(Color("SecondaryColor"))
 
-                            Button("Photos") {
-                                selection = "C"
-                            }.foregroundColor(Color("SecondaryColor"))
+//                            Button("Photos") {
+//                                selection = "C"
+//                            }.foregroundColor(Color("SecondaryColor"))
 
                             Button("Link") {
                                 selection = "A"

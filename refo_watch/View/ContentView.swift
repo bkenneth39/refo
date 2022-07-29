@@ -103,11 +103,12 @@ struct ContentView: View {
                                        .foregroundColor(.black)
                                        .padding(.horizontal, 20)
                                    
-//                                   Divider()
+                                   Divider()
                                    
                                    HStack {
                                        Button("Dismiss") {
 //                                           addCategories()
+                                           hideKeyboard()
                                            isEditing = false
                                            self.presentAlert.toggle()
                                        }

@@ -13,6 +13,7 @@ struct EditingLink: View {
     @State var title: String
     @State var urlLink: String
     @Binding var resource: FetchedResults<Resources>.Element
+    @State private var showSafari: Bool = false
     
     
     init(resource: Binding<FetchedResults<Resources>.Element>) {
@@ -43,13 +44,24 @@ struct EditingLink: View {
                             )
                         .textFieldStyle(.plain)
                     
-                    Text("URL Link 🔗")
-                          .foregroundColor(Color("SecondaryColor"))
-                          .fontWeight(.bold)
-                          .padding(.top, 20)
-                          .padding(.horizontal)
-                          .multilineTextAlignment(.leading)
-                          .frame(width: UIScreen.main.bounds.width, alignment: .leading)
+                    HStack {
+                        Text("URL Link 🔗")
+                              .foregroundColor(Color("SecondaryColor"))
+                              .fontWeight(.bold)
+                              .padding(.top, 20)
+//                              .padding(.horizontal)
+                              .multilineTextAlignment(.leading)
+                        Spacer()
+                        Button {
+                            if $urlLink.wrappedValue.lowercased().hasPrefix("http://")==false && $urlLink.wrappedValue.lowercased().hasPrefix("https://")==false{
+                                 urlLink = "http://\(urlLink)"
+                            }
+                            showSafari.toggle()
+                        } label: {
+                            Text("Open Link")
+                        }.padding(.top, 20)
+
+                    }
                       TextField("Link", text: $urlLink)
                           .frame(minHeight: 43)
                           .padding(.horizontal,10)
@@ -79,6 +91,10 @@ struct EditingLink: View {
                     .padding(.horizontal)
                     
                     .navigationTitle("Edit Resource")
+                    .fullScreenCover(isPresented: $showSafari, content: {
+                        
+                        SFSafariViewWrapper(url: (URL(string: urlLink) ?? URL(string: "https://discussions.apple.com/thread/251084752"))!)
+                    })
             )
     }
     

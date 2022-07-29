@@ -57,6 +57,7 @@ struct NewLink: View {
                             
                     } label: {
                         Text("Done")
+                            .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: 43)
                     }
                     .padding(.horizontal)
                     .frame(maxWidth: UIScreen.main.bounds.width, maxHeight: 43)
